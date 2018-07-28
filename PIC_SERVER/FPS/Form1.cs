@@ -789,7 +789,7 @@ namespace FPS
         private void Form1_Load(object sender, EventArgs e)
         {
           Config_AutoEOD();
-          new TRAN(1, 2, 3, "1238765", "11").Authorize("1238765", 40);
+          //new TRAN(1, 2, 3, "1238765", "11").Authorize("1238765", 40);
             
           //new SetDataTime().Hide();
             //new SetDataTime().HideForm();
